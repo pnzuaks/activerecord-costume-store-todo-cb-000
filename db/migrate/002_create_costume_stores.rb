@@ -6,7 +6,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.2]
       t.string :location
       t.integer :number_of_costumes
       t.integer :number_of_employees
-
+      t.boolean :in_
       t.float :price
       t.string :size
       t.string :image_url
