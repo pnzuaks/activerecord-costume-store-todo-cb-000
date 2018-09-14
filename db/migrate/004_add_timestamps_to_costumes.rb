@@ -1,5 +1,5 @@
 class AddTimestampsToCostumes < ActiveRecord::Migration[5.2]
   def change
-    add_column t.timestamps
+    add_column :timestamps
   end
 end
